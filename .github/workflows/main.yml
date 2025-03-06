@@ -98,7 +98,7 @@ jobs:
         run: unzip -P ${{ secrets.PASSWORD }} py.zip
       
       - name: install
-        run: pip install requests pycryptodome urllib3 python-telegram-bot
+        run: pip install requests pycryptodome urllib3 python-telegram-bot requests
 
       - name: Start The Code
         run: python tg.py &
