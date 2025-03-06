@@ -101,7 +101,7 @@ jobs:
         run: pip install requests pycryptodome urllib3 python-telegram-bot
 
       - name: Start The Code
-        run: python lag.py &
+        run: python tg.py &
       
       - name: keep alive
         id: check_runs
