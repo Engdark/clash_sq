@@ -103,9 +103,6 @@ jobs:
       - name: Start The Code
         run: python bot.py &
       
-      - name: Start The Code
-        run: python panel.py &
-      
       - name: keep alive
         id: check_runs
         run: |
